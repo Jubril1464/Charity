@@ -1,0 +1,14 @@
+{
+  "name": "charity",
+  "version": "1.0.0",
+  "description": "Nurusalam",
+  "main": "Charity.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss Charity.css "
+  },
+  "author": "Jubril",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1" 
+  }
+}

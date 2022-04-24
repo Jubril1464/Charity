@@ -1,0 +1,37 @@
+.nav{
+    background: $black;
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2000;
+    position:fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:2rem;
+    display:flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+   
+   
+    
+    & a{
+        background:transparent;
+        padding: 1rem;
+        border-radius: 50%;
+        display:flex;
+        font-size: 1.5rem;
+        color: $color-heading2;
+        transition: all .3s;
+
+        
+        &:hover{
+            background:$grey-light; 
+
+        }
+        &.active{
+            background-color: $grey-light;
+        }
+       
+    }
+  
+
+}

@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html{
+    font-size: 62.5%; 
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7;
+    padding: 3rem;
+
+
+}

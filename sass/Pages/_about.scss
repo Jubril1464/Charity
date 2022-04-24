@@ -1,0 +1,26 @@
+.work-section{
+    background-color: $grey-light;
+    padding: 30rem 0;
+    margin-top: -35vh; 
+    
+}
+.section-about{
+    background-image:linear-gradient(to right bottom, $grey-light,$grey-medium);
+    padding: 10rem 0;
+    transform: skewY(-7deg);
+    margin-top: -20vh;
+    
+
+    & > * {
+        transform:skewY(7deg)
+    }
+  
+   
+}
+.section-volunteers{
+    background-color: $grey-light;
+    padding: 30rem 0;
+    margin-top: -20vh;
+    
+    
+}
